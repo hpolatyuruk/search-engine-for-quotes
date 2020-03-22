@@ -69,7 +69,6 @@ url = 'https://www.goodreads.com/quotes'
 
 html = fetchQuotesHTML(url)
 quotes = parseQuotes(html)
-print(len(quotes))
 for quote in quotes:
     print('Text: {}, Author: {}, Title: {}, Tags: [{}]'.format(
         quote.Text, quote.Author, quote.Title, ','.join(quote.Tags)))
