@@ -1,8 +1,0 @@
-{
-    "editor.rulers": [80],
-    "workbench.colorCustomizations": {
-        "editorRuler.foreground": "#ff4081"
-    },
-    // Lines will wrap at the minimum of viewport and "Editor: Word Wrap Column".
-"editor.wordWrap": "bounded"
-}
